@@ -22,6 +22,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       <head>
+          <meta name="twitter:card" content="player" />
+          <meta name="twitter:site" content="https://sblinks-dot.vercel.app/mint-redeem-lst-bifrost" />
+          <meta name="twitter:title" content="Test" />
+          <meta name="twitter:description" content="" />
+          <meta name="twitter:player" content="https://sblinks-dot.vercel.app/mint-redeem-lst-bifrost" />
+          <meta name="twitter:player:width" content="580" />
+          <meta name="twitter:player:height" content="680" />
+          <meta name="twitter:image" content="" />
+          <meta property="og:url" content="https://sblinks-dot.vercel.app/mint-redeem-lst-bifrost" />
+          <meta property="og:title" content="test" />
+          <meta property="og:description" content="test" />
+          <meta property="og:image" content="https://app.ekubo.org/pwa-512x512.png" />
+       </head>
       <body
         className={unbounded.className}
       >
