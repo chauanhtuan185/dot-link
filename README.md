@@ -4,7 +4,7 @@ A opensource template for integration X media card allow user can interact with 
 
 ### Introduction
 
-Sblinks rethinks how users interact with dApps directly in X. This template provides a minimal setup for embedding a dApp inside an X post using the Twitter Card component, allowing users to interact seamlessly without leaving the platform.
+This will re-thinking how users interact with dApps directly in X. This template provides a minimal setup for embedding a dApp inside an X post using the Twitter Card component, allowing users to interact seamlessly without leaving the platform.
 
 ### What Are X Cards?
 
@@ -14,7 +14,7 @@ In this guide, we’ll utilize the Player Card format to embed your dApp within 
 
 
 ### Setup
-To enable embedding your Dapp on platforms like Twitter, you need to add the following meta tags to the `index.html` file or on the top on layout in metadata . These meta tags will define how your Dapp is presented in Twitter Cards 
+With Next.js and React, to enable embedding your Dapp on Twitter, you need to add the following meta tags to the `index.html` file (if using plain React) or in the `metadata` of your layout (if using Next.js). These meta tags will define how your Dapp is presented in Twitter Cards:
 
 ```html
 <meta name="twitter:card" content="player" /> <!-- Type of card format used for embedding -->
@@ -32,7 +32,11 @@ To enable embedding your Dapp on platforms like Twitter, you need to add the fol
 ```
 
 ### Template 
-In this template i use DotUI kit from Buildstation to demo , allow user mint/redeem lst token on Bifrost and Moonbeam
+In this template, I use [DotUI kit](https://github.com/buildstationorg/dotui) from Buildstation to demo, allowing users to mint/redeem LST tokens on Bifrost and Moonbeam
 
 ### Demo video 
+
+
+https://github.com/user-attachments/assets/159622ea-91c2-4eaf-8b51-fcb0620d2507
+
 
